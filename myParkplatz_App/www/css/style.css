@@ -1,51 +1,10 @@
 /* Empty. Add your own CSS if you like */
-ion-content{
+.
 
-  margin : 100;
-  padding : 100;
-}
+.list .card{
+  margin-top: 159px;
 
-.scroll-content {
-  padding: 0px !important;
 }
-ion-header-bar{
-
-  visibility: hidden;
-}
-.container{
-  background-color: white;
-  box-shadow: #222222 0px 0px 5px;
-  height:auto;
-  border:0px;
-  margin: 10px;
-  margin-top: 30px;
-}
-
-.list.list-inset{
-  width: 80%;
-  margin:0px;
-  margin-top: 5px;
-  margin-left: 5px;
-  padding-right:5px;
-  border:0px;
-  float:right;
-}
-.button.button-block.button-positive{
-  padding:0px;
-  height:10px;
-  border:0px;
-}
-
-.item{
-  padding:0px;
-  border:0px;
-}
-
-
-.scroll {
-  height: 100%;
-}
-
 #map {
   width: 100%;
   height: 100%;

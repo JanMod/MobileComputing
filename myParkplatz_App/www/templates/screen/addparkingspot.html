@@ -1,0 +1,22 @@
+<div class="list card foo">
+
+  <div class="list">
+    <div class="item item-avatar">
+      <img src="../icons/parking.png">
+      <h2>Hinzufügen</h2>
+    </div>
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Parkplatzname</span>
+      <input type="text" ng-model="addingParkingspot.name">
+    </label>
+    <label class="item item-input item-stacked-label">
+      <span class="input-label" >Preis</span>
+      <input type="text" ng-model="addingParkingspot.price">
+    </label>
+    <label class="item item-input item-stacked-label">
+      <span class="input-label" >Maximale Plätze</span>
+      <input type="text" ng-model="addingParkingspot.spotMax">
+    </label>
+  </div>
+  <button class="button button-full button-balanced" icon="ion-plus-round" ng-click="addParkplatz()">Hinzufügen</button>
+</div>

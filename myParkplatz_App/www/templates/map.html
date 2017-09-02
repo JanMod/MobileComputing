@@ -1,0 +1,25 @@
+<ion-view title="Map">
+  <ion-content>
+    <button ng-show="showAddParkinspot" ng-click="addParkingSlot()" id="addButton" class="button-balanced">
+      Add
+    </button>
+    <div id="map"></div>
+  </ion-content>
+
+
+  <div class="bar bar-footer bar-dark" ng-show="showFooter">
+      <button class="button button-assertive ion-close" ng-click="closeAdding()"></button>
+      <div class="title">Wähle die Position</div>
+      <button ng-show="showButtonNext" class="button button-energized ion-arrow-right-a" ng-click="nextAddingStep()">
+        </button>
+  </div>
+
+  <div class="bar bar-footer bar-dark" ng-show="showNavigation">
+    <button class="button button-assertive ion-close" ng-click="closeNavigation()"></button>
+    <div class="title">Navigation</div>
+  </div>
+</ion-view>
+
+
+
+

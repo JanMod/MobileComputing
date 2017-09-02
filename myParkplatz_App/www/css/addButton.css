@@ -1,0 +1,67 @@
+#addButton{
+  height: 64px;
+  width: 64px;
+  border-radius: 100px;
+  border: 0px;
+  background: #33cd5f;
+  box-shadow: 1px 1px 10px;
+  z-index: 10;
+  float:right;
+  margin-right: 15px;
+  margin-bottom: 70px;
+  position: absolute;
+  right : 0;
+  bottom:0;
+}
+
+.list.card.foo{
+  margin-top: 120px;
+
+}
+
+
+
+
+.bar-footer .button{
+  height:8%;
+  width:25%;
+}
+
+.footerheader{
+  background: #007aff;
+
+}
+
+.footercontent{
+  background: #000;
+  height:80%;
+
+}
+
+
+/*
+@keyframes animationIn{
+  from{
+    height: 64px;
+    width: 64px;
+    border-radius: 100px;
+    border: 0px;
+    background: blue;
+    box-shadow: 1px 1px 10px;
+    z-index: 10;
+    float:right;
+    margin-right: 15px;
+    margin-bottom: 70px;
+    position: absolute;
+    right : 0;
+    bottom:0;
+  }
+  to{
+    background: green;
+    height:70%;
+    width: 70%;
+    border-radius: 10px;
+
+  }
+}
+*/

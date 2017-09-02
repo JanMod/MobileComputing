@@ -1,0 +1,46 @@
+<ion-view ng-controller="ParkingviewCtrl" title="Parkplatz: {{parkingspot.name}}">
+  <ion-content>
+
+    <div class="list card">
+
+      <div class="item item-avatar">
+        <img src="../icons/parking.png">
+        <h2>{{parkingspot.name}}</h2>
+
+
+      </div>
+
+      <div class="item item-body">
+        <div ng-switch on="{{parkingspot.price}}">
+          <div ng-switch-when="0">
+            Kostenlos
+          </div>
+          <div ng-switch-default>
+            Preis: {{parkingspot.price}}
+          </div>
+        </div>
+
+      </div>
+
+      <div class="item item-body">
+
+        Plätze: {{parkingspot.spotMax}}
+      </div>
+
+      <div class="item item-body">
+
+        Belegte Plätze: {{parkingspot.spotCurrent}}
+      </div>
+      <div class="item item-body">
+        <button class="button button-full button-energized" icon="ion-plus-round" ng-click="navigate()">Navigieren</button>
+      </div>
+
+      <div class="item item-body">
+        <button class="button button-full button-assertive" ng-click="deleteParkingspot()">Entfernen</button>
+      </div>
+
+
+    </div>
+  </ion-content>
+
+</ion-view>

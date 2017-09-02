@@ -1,0 +1,11 @@
+<ion-view title="Einstellungen">
+  <ion-content>
+    <div class="list">
+      <div class="item range range-positive">
+        <h3>Radius</h3>
+        <input type="range" ng-model="value" ng-change= "sliderChanged(value)" id="slider" name="range" min="0" max="10000" value="100">
+        <h3>{{value/1000}} km</h3>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
